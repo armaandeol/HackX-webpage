@@ -1,0 +1,189 @@
+<html>
+  <head>
+    <title>
+      Next Level Analytics
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #fbfada;
+        color: #000000;
+      }
+
+      .button1 {
+        background-color: #026a4d;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .button1:hover {
+        background-color: #026a4d;
+      }
+
+      .container {
+        padding: 50px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .header .badge {
+        display: inline-block;
+        background-color: #fbfada;
+        color: #d1d1d1;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+
+      .header h1 {
+        font-size: 48px;
+        color: #000000;
+        margin: 20px 0;
+      }
+
+      .header p {
+        font-size: 18px;
+        color: #000000;
+      }
+
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .feature {
+        flex: 1 1 30%;
+        margin: 10px;
+        padding: 20px;
+        background-color: #2a4d4d;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .feature i {
+        font-size: 36px;
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+
+      .feature h3 {
+        font-size: 24px;
+        color: #ffffff;
+        margin-bottom: 10px;
+      }
+
+      .feature p {
+        font-size: 16px;
+        color: #a1a1a1;
+      }
+
+      .feature.highlight {
+        background-color: #1a3d3d;
+        display: flex;
+        align-items: center;
+      }
+
+      .feature.highlight img {
+        max-width: 100px;
+        margin-right: 20px;
+        border-radius: 10px;
+      }
+
+      .feature.highlight .text {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="badge">
+          <button class="button1" id="button1" onclick="navigateHome()">Home</button>
+        </div>
+        <h1>
+          StormShield
+        </h1>
+        <p>
+          Welcome to our AI-powered early warning system, designed to keep you safe and informed during natural disasters. Our mission is to provide real-time alerts, vital resources, and aid to help communities respond to disasters effectively and quickly. Whether you're facing an earthquake, thunderstorm, or flood, we're here to offer timely warnings and assistance.
+        </p>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-eye"></i>
+          <h3>Aid During Earthquakes</h3>
+          <p>
+            Receive SMS alerts and find nearby aid resources to stay safe and secure when an earthquake strikes.
+          </p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-fingerprint"></i>
+          <h3>Thunderstorm Prediction</h3>
+          <p>
+            Get early predictions of thunder falls to help you prepare and take preventive measures.
+          </p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-server"></i>
+          <h3>Flood Alerts</h3>
+          <p>
+            Stay ahead of the danger with flood notifications that connect you to necessary aid and resources.
+          </p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-chart-line"></i>
+          <h3>Last Known Location Sharing</h3>
+          <p>
+            In flood situations where communication is cut off, your last known location will be shared with NGOs to help rescuers find you.
+          </p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-infinity"></i>
+          <h3>Fundraising for Shelters and NGOs</h3>
+          <p>
+            Contribute to shelters and organisations dedicated to helping those in need during disasters.
+          </p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Disaster Blogs</h3>
+          <p>
+            Stay informed with the latest updates and articles about ongoing and recent disasters around the world.
+          </p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-chart-line"></i>
+          <h3>Disaster Reporting</h3>
+          <p>
+            Our platform uses cutting-edge AI technology to predict and manage disaster-related risks, ensuring that you and your community are always one step ahead. Whether it’s raising funds for relief efforts or sending real-time alerts, we aim to create a connected, informed, and resilient community in the face of disaster.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function navigateHome() {
+        window.location.href = '/';
+      }
+    </script>
+  </body>
+</html>
